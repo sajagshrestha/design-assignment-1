@@ -15,7 +15,7 @@ nav {
 .search-box {
 	width: 282px;
 	height: 20px;
-	background-image: url("/images/search.png");
+	background-image: url("https://sajagshrestha.github.io/design-assignment-1//images/search.png");
 	background-repeat: no-repeat;
 }
 .search-box input {
@@ -43,12 +43,12 @@ nav {
 	padding: 5px 8px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("/images/search-btn.png");
+	background-image: url("https://sajagshrestha.github.io/design-assignment-1//images/search-btn.png");
 	cursor: pointer;
 	display: inline-block;
 }
 .search-button:hover {
-	background-image: url("images/search-btn-hover.png");
+	background-image: url("https://sajagshrestha.github.io/design-assignment-1/images/search-btn-hover.png");
 }
 .search-button h1 {
 	color: white;
