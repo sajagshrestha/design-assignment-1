@@ -48,7 +48,7 @@ nav {
 	display: inline-block;
 }
 .search-button:hover {
-	background-image: url("/images/search-btn-hover.png");
+	background-image: url("images/search-btn-hover.png");
 }
 .search-button h1 {
 	color: white;
