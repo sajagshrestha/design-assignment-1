@@ -1,7 +1,7 @@
 /* wrapper to center whole document */
 .main-wrapper {
 	margin: 0 auto;
-	width: 1002px;
+	width: 938px;
 	height: 100%;
 }
 /* fix float issues */
@@ -23,5 +23,16 @@
 
 .profile,
 .profile-menu li {
+	float: right;
+}
+/* menu */
+.menu,
+.menu-items a {
+	float: left;
+}
+.notification-section,
+.notifications,
+.notifications span,
+.notifications {
 	float: right;
 }

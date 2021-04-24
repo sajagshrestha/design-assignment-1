@@ -11,51 +11,80 @@
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
-		<!-- navigation-section -->
-		<nav>
-			<div class="main-wrapper">
-				<div class="nav-wrapper clear">
-					<div class="logo">
-						<a href="#">
-							<img
-								src="images/logo.png"
-								alt="logo"
-								class="logo"
-							/>
-						</a>
-					</div>
-					<form class="search">
-						<div class="search-box">
-							<input
-								type="text"
-								name="search"
-								placeholder="Search by Term, Member, or Entry Title"
-								class="input-text"
-							/>
-							<span class="cross"
-								><img src="images/cross.png" alt=""
-							/></span>
-							<span class="search-icon">
+		<!-- header-section -->
+		<header>
+			<!-- navigation section -->
+			<nav>
+				<div class="main-wrapper">
+					<div class="nav-wrapper clear">
+						<div class="logo">
+							<a href="#">
 								<img
-									src="images/search-icon.png"
-									alt="search-icon"
+									src="images/logo.png"
+									alt="logo"
+									class="logo"
 								/>
-							</span>
+							</a>
 						</div>
-						<div class="search-button"><h1>SEARCH</h1></div>
-					</form>
-					<div class="profile clear">
-						<div class="profile-name">Joe Burros</div>
-						<div class="profile-menu">
-							<ul>
-								<li><a href="#">Log Out</a></li>
-								<li><a href="#">Settings</a></li>
-								<li><a href="#">Home</a></li>
-							</ul>
+						<form class="search">
+							<div class="search-box">
+								<input
+									type="text"
+									name="search"
+									placeholder="Search by Term, Member, or Entry Title"
+									class="input-text"
+								/>
+								<span class="cross"
+									><img src="images/cross.png" alt=""
+								/></span>
+								<span class="search-icon">
+									<img
+										src="images/search-icon.png"
+										alt="search-icon"
+									/>
+								</span>
+							</div>
+							<div class="search-button"><h1>SEARCH</h1></div>
+						</form>
+						<div class="profile clear">
+							<div class="profile-name">Joe Burros</div>
+							<div class="profile-menu">
+								<ul>
+									<li><a href="#">Log Out</a></li>
+									<li><a href="#">Settings</a></li>
+									<li><a href="#">Home</a></li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</nav>
+			</nav>
+			<!--menu section-->
+			<section class="menu-section">
+				<div class="main-wrapper clear">
+					<div class="menu clear">
+						<div class="menu-items clear">
+							<a href="#">Create New Entry</a>
+							<a href="#">My Topic Boxes</a>
+							<a href="#">Friends</a>
+							<a href="#">Invite New Member</a>
+						</div>
+					</div>
+					<div class="notification-section clear">
+						<div href="#" class="notifications">
+							<span>Friend Requests - 0</span>
+							<span><img src="images/friend.png" alt="" /></span>
+						</div>
+						<div class="notifications notification-active">
+							<span>Topic Boxes invites - 2</span>
+							<span
+								><img src="images/invite-active.png" alt=""
+							/></span>
+						</div>
+					</div>
+				</div>
+			</section>
+		</header>
+		<!--feed section-->
 	</body>
 </html>
