@@ -1,0 +1,27 @@
+/* wrapper to center whole document */
+.main-wrapper {
+	margin: 0 auto;
+	width: 1002px;
+	height: 100%;
+}
+/* fix float issues */
+.clear::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/* general layout */
+.logo,
+.search {
+	float: left;
+}
+
+.search-box,
+.search-button {
+	float: left;
+}
+
+.profile,
+.profile-menu li {
+	float: right;
+}
