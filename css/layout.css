@@ -5,7 +5,7 @@
 	height: 100%;
 }
 /* fix float issues */
-.clear::after {
+.clear:after {
 	content: "";
 	display: table;
 	clear: both;
