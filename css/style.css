@@ -15,7 +15,7 @@ nav {
 .search-box {
 	width: 282px;
 	height: 20px;
-	background-image: url("https://sajagshrestha.github.io/design-assignment-1//images/search.png");
+	background-image: url("../images/search.png");
 	background-repeat: no-repeat;
 }
 .search-box input {
@@ -43,11 +43,11 @@ nav {
 	padding: 5px 8px;
 	background-repeat: no-repeat;
 	overflow: hidden;
-	background-image: url("https://sajagshrestha.github.io/design-assignment-1/images/search-btn.png");
+	background-image: url("../images/search-btn.png");
 	cursor: pointer;
 }
 .search-button:hover {
-	background-image: url("https://sajagshrestha.github.io/design-assignment-1/images/search-btn-hover.png");
+	background-image: url("../images/search-btn-hover.png");
 }
 .search-button h1 {
 	color: white;
@@ -188,7 +188,7 @@ nav {
 }
 .feed-menu-section {
 	height: 65px;
-	background: url("/images/entry-bg.png");
+	background: url("../images/entry-bg.png");
 	border-bottom: 2px solid #2fc1da;
 }
 .feed-body-section {
@@ -209,12 +209,12 @@ nav {
 	text-align: center;
 	width: 114px;
 	background-repeat: no-repeat;
-	background-image: url("/images/tab-bg.png");
+	background-image: url("../images/tab-bg.png");
 }
 .active,
 .feed-menu-items a:hover {
 	color: white;
-	background-image: url("/images/tab-bg-active.png");
+	background-image: url("../images/tab-bg-active.png");
 }
 .entry-type {
 	font-size: 13px;
