@@ -36,3 +36,18 @@
 .notifications {
 	float: right;
 }
+
+/*main feed*/
+.left-feed,
+.center-feed {
+	float: left;
+}
+.right-feed {
+	float: right;
+}
+.item-title {
+	float: left;
+}
+.items img {
+	float: right;
+}

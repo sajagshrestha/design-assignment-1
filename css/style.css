@@ -43,7 +43,7 @@ nav {
 	padding: 5px 8px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url("https://sajagshrestha.github.io/design-assignment-1//images/search-btn.png");
+	background-image: url("https://sajagshrestha.github.io/design-assignment-1/images/search-btn.png");
 	cursor: pointer;
 	display: inline-block;
 }
@@ -96,6 +96,7 @@ nav {
 	font-size: 13px;
 }
 .notifications span {
+	cursor: pointer;
 	color: #a9a9a9;
 }
 .notification-active span {
@@ -106,4 +107,65 @@ nav {
 	height: 15px;
 	width: 14px;
 	margin-right: 8px;
+}
+
+/* feed section */
+.feed-section {
+	height: 604px;
+	margin: 30px 0;
+}
+.left-feed {
+	width: 194px;
+	height: 597px;
+	background-color: #f5f5f5;
+}
+.tabs {
+	height: 28px;
+	padding: 14px 12px 0 14px;
+	display: block;
+}
+.items {
+	padding-bottom: 5px;
+	line-height: 15px;
+}
+.items:hover {
+	background-color: #fff;
+}
+.item-title {
+	width: 95px;
+}
+.items h1 {
+	font-size: 11px;
+}
+.items .download {
+	height: 12px;
+	width: 14px;
+	margin-top: 10px;
+}
+.items .anchor {
+	height: 7px;
+	width: 14px;
+	margin-top: 5px;
+}
+.rs-2 .item-title {
+	width: 140px;
+}
+.left-feed .title {
+	background-color: #2fc1da;
+	color: #fff;
+}
+.center-feed {
+	margin: 0 0 0 26px;
+	width: 518px;
+	height: 100%;
+	background-color: blue;
+}
+.right-feed {
+	width: 176px;
+	height: 597px;
+	background-color: yellowgreen;
+}
+.left-feed,
+.right-feed {
+	background-color: #f5f5f5;
 }
