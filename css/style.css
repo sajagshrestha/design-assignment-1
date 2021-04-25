@@ -42,10 +42,9 @@ nav {
 .search-button {
 	padding: 5px 8px;
 	background-repeat: no-repeat;
-	background-size: cover;
+	overflow: hidden;
 	background-image: url("https://sajagshrestha.github.io/design-assignment-1/images/search-btn.png");
 	cursor: pointer;
-	display: inline-block;
 }
 .search-button:hover {
 	background-image: url("https://sajagshrestha.github.io/design-assignment-1/images/search-btn-hover.png");
@@ -155,7 +154,6 @@ nav {
 .right-feed {
 	width: 176px;
 	height: 597px;
-	background-color: yellowgreen;
 }
 .right-feed .tabs {
 	padding-right: 5px;
