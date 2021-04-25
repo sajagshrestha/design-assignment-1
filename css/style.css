@@ -135,7 +135,7 @@ nav {
 	width: 95px;
 }
 .items h1 {
-	font-size: 11px;
+	font-size: 10px;
 }
 .items .download {
 	height: 12px;
@@ -150,7 +150,7 @@ nav {
 .rs-2 .item-title {
 	width: 140px;
 }
-.left-feed .title {
+.title {
 	background-color: #2fc1da;
 	color: #fff;
 }
@@ -164,6 +164,17 @@ nav {
 	width: 176px;
 	height: 597px;
 	background-color: yellowgreen;
+}
+.right-feed .tabs {
+	padding-right: 5px;
+}
+.right-feed .items {
+	height: 18px;
+	padding-bottom: 5px;
+}
+
+.right-feed .item-title {
+	width: 100%;
 }
 .left-feed,
 .right-feed {
