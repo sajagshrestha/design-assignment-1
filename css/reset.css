@@ -4,10 +4,8 @@
 	font-family: "Trebuchet MS", sans-serif;
 	color: #284f56;
 }
-body {
-	height: 110vh;
-}
-ul {
+
+li {
 	list-style: none;
 }
 a {

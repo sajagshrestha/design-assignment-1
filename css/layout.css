@@ -64,3 +64,10 @@
 .feed-menu-right {
 	float: right;
 }
+/* footer */
+.footer-menu ul li {
+	float: left;
+}
+.copyright {
+	float: right;
+}
