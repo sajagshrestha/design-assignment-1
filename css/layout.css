@@ -56,3 +56,11 @@
 .entry {
 	float: left;
 }
+
+.feed-menu-left,
+.feed-menu-items a {
+	float: left;
+}
+.feed-menu-right {
+	float: right;
+}
