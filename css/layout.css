@@ -51,3 +51,8 @@
 .items img {
 	float: right;
 }
+/* entry */
+.profile-img,
+.entry {
+	float: left;
+}
